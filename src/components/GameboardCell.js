@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text } from "rebass";
+import { Button } from "rebass";
 
 export default function GameboardCell({ content }) {
   const [isChecked, checkState] = useState(false);
@@ -7,5 +7,9 @@ export default function GameboardCell({ content }) {
     checkState(!isChecked);
   };
 
-  return <Text>{content}</Text>;
+  return (
+    <Button p={0} variant="outline" textAlign="center">
+      {content}
+    </Button>
+  );
 }

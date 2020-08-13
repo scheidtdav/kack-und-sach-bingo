@@ -12,6 +12,18 @@ const theme = {
   colors: {
     primary: "#ffffff",
   },
+  buttons: {
+    primary: {
+      fontSize: 3,
+      color: "#000000",
+      bg: "primary",
+    },
+    outline: {
+      variant: "buttons.primary",
+      bg: "transparent",
+      border: "1px solid #000000",
+    },
+  },
 };
 
 function shuffleArray(arr) {
