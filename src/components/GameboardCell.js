@@ -1,15 +1,14 @@
-import React, { useState } from 'react'
-import './GameboardCell.css'
+import React, { useState } from "react";
 
-export default function GameboardCell({content}) {
-    const [ isChecked, checkState ] = useState(false);
-    const onCellClicked = () => {
-        checkState(!isChecked);
-    }
+export default function GameboardCell({ content }) {
+  const [isChecked, checkState] = useState(false);
+  const onCellClicked = () => {
+    checkState(!isChecked);
+  };
 
-return(
+  return (
     <td onClick={onCellClicked} className={isChecked ? "checked" : "unchecked"}>
-        <div>{content}</div>
+      <div>{content}</div>
     </td>
-)
+  );
 }

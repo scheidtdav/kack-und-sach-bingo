@@ -1,6 +1,5 @@
 import React from "react";
 import GameboardRow from "./GameboardRow";
-import './Gameboard.css'
 
 export default function Gameboard({ data }) {
   return (
