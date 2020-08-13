@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "emotion-theming";
-import { Flex, Box, Image, Button } from "rebass";
+import { Flex, Box, Image, Button, Text } from "rebass";
 
 import Gameboard from "./components/Gameboard";
 import kacki from "./kacki.png";
@@ -32,12 +32,14 @@ function App() {
         alignItems="center"
         alignContent="center"
         height="100vh"
-        p={2}
+        sx={{
+          p: 1,
+        }}
       >
         <Box flex="0 1 auto">
-          <Image src={kacki} sx={{ maxHeight: "6rem" }} alt="Kacki" />
+          <Image src={kacki} sx={{ maxHeight: "3rem" }} alt="Kacki" />
         </Box>
-        <Box flex="1 0 auto" fontSize={3}>
+        <Box flex="1 0 auto" fontSize={2}>
           <Gameboard data={shuffleArray(data.sentences).slice(0, 25)} />
         </Box>
         <Box flex="0 1 auto">

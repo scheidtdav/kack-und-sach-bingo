@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Text } from "rebass";
 
 export default function GameboardCell({ content }) {
   const [isChecked, checkState] = useState(false);
@@ -6,9 +7,5 @@ export default function GameboardCell({ content }) {
     checkState(!isChecked);
   };
 
-  return (
-    <td onClick={onCellClicked} className={isChecked ? "checked" : "unchecked"}>
-      <div>{content}</div>
-    </td>
-  );
+  return <Text>{content}</Text>;
 }

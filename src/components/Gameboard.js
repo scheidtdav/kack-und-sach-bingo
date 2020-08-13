@@ -1,16 +1,20 @@
 import React from "react";
-import GameboardRow from "./GameboardRow";
+import { Box } from "rebass";
+
+import GameboardCell from "./GameboardCell";
 
 export default function Gameboard({ data }) {
   return (
-    <table id="gamboard">
-      <tbody>
-        <GameboardRow rowItems={data.slice(0, 5)} />
-        <GameboardRow rowItems={data.slice(5, 10)} />
-        <GameboardRow rowItems={data.slice(10, 15)} />
-        <GameboardRow rowItems={data.slice(15, 20)} />
-        <GameboardRow rowItems={data.slice(20, 25)} />
-      </tbody>
-    </table>
+    <Box
+      sx={{
+        display: "grid",
+        gridGap: 4,
+        gridTemplateColumns: "repeat(auto-fit, minmax(36px, 1fr))",
+      }}
+    >
+      {data.map((cell) => {
+        return <GameboardCell content={cell} />;
+      })}
+    </Box>
   );
 }
