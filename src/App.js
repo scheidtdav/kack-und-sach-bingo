@@ -1,6 +1,5 @@
 import React from "react";
-import { ThemeProvider } from "emotion-theming";
-import { Flex, Box } from "rebass";
+import { Box, Grommet } from "grommet";
 
 import theme from "./theme";
 import data from "./sentences.json";
@@ -20,25 +19,12 @@ function shuffleArray(arr) {
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <Flex
-        backgroundColor="background"
-        flexDirection="column"
-        wrap="nowrap"
-        justifyContent="space-between"
-        alignItems="stretch"
-        alignContent="center"
-        height="100vh"
-        p={1}
-      >
-        <Box flex="0 1 auto">
-          <Header />
-        </Box>
-        <Box flex="1 0 auto" fontSize={2}>
-          <Gameboard data={shuffleArray(data.sentences).slice(0, 25)} />
-        </Box>
-      </Flex>
-    </ThemeProvider>
+    <Grommet theme={theme} full>
+      <Box fill>
+        <Header />
+        <Gameboard data={shuffleArray(data.sentences).slice(0, 25)} />
+      </Box>
+    </Grommet>
   );
 }
 

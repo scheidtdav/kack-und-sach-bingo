@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "rebass";
+import { Button } from "grommet";
 
 export default function GameboardCell({ content, onTap }) {
   const [isChecked, checkState] = useState(false);

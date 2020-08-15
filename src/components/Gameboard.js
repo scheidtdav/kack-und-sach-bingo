@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "rebass";
+import { Box } from "grommet";
 
 import GameboardCell from "./GameboardCell";
 
@@ -9,21 +9,7 @@ export default function Gameboard({ data }) {
   };
 
   return (
-    <Box
-      sx={{
-        display: "grid",
-        gridGap: 1,
-        gridTemplateColumns: "1fr 1fr 1fr 1fr 1fr",
-        gridTemplateRows: "1fr 1fr 1fr 1fr 1fr",
-        gridTemplateAreas: [
-          ". . . . .",
-          ". . . . .",
-          ". . . . .",
-          ". . . . .",
-          ". . . . .",
-        ],
-      }}
-    >
+    <Box>
       {data.map((cell) => {
         return <GameboardCell content={cell} onClick={myOnClick} />;
       })}
