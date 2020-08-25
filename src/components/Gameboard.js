@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "grommet";
+import { Grid, Main } from "grommet";
 
 import GameboardCell from "./GameboardCell";
 
@@ -9,10 +9,23 @@ export default function Gameboard({ data }) {
   };
 
   return (
-    <Box>
-      {data.map((cell) => {
-        return <GameboardCell content={cell} onClick={myOnClick} />;
-      })}
-    </Box>
+    <Main>
+      <Grid
+        justifyContent="stretch"
+        fill="vertical"
+        columns={[
+          ["xxsmall", "medium"],
+          ["xxsmall", "medium"],
+          ["xxsmall", "medium"],
+          ["xxsmall", "medium"],
+          ["xxsmall", "medium"],
+        ]}
+        gap="small"
+      >
+        {data.map((cell) => {
+          return <GameboardCell content={cell} onClick={myOnClick} />;
+        })}
+      </Grid>
+    </Main>
   );
 }
