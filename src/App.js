@@ -1,5 +1,5 @@
 import React from "react";
-import { Grommet, Stack } from "grommet";
+import { Grommet } from "grommet";
 
 import theme from "./theme";
 import data from "./sentences.json";

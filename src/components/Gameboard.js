@@ -22,8 +22,10 @@ export default function Gameboard({ data }) {
         ]}
         gap="small"
       >
-        {data.map((cell) => {
-          return <GameboardCell content={cell} onClick={myOnClick} />;
+        {data.map((cell, index) => {
+          return (
+            <GameboardCell key={index} content={cell} onClick={myOnClick} />
+          );
         })}
       </Grid>
     </Main>

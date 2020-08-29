@@ -13,21 +13,15 @@ export default function AppHeader() {
       elevation="xxsmall"
       style={{ zIndex: "1" }}
     >
-      <Stack fill="horizontal">
-        <Box direction="row" gap="small" justify="center">
+      <Stack fill="horizontal" anchor="right">
+        <Box direction="row" gap="small" justify="center" align="center">
           <Box height="xxsmall" width="xxsmall">
-            <Image
-              src={kacki}
-              alt="Kacki"
-              width="xxsmall"
-              fit="contain"
-              fill="false"
-            />
+            <Image src={kacki} alt="Kacki" width="xxsmall" fit="contain" />
           </Box>
           <Heading level="3">Bingo</Heading>
         </Box>
-        <Box direction="row" justify="end">
-          <Button icon={<Cycle color="text" />} />
+        <Box direction="row" justify="end" alignSelf="center">
+          <Button plain icon={<Cycle color="text" />} />
         </Box>
       </Stack>
     </Header>

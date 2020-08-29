@@ -8,11 +8,18 @@ const theme = {
       text: "#000000",
       background: "brand",
       border: "text",
+      control: "brand",
+      focus: "text",
     },
     font: {
       family: '"Oswald", sans-serif',
       size: "15px",
       height: "20px",
+    },
+  },
+  button: {
+    default: {
+      border: undefined,
     },
   },
 };
