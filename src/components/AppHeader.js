@@ -9,8 +9,9 @@ export default function AppHeader() {
     <Header
       background="background"
       justify="center"
-      pad={{ left: "small", right: "small", vertical: "small" }}
-      elevation="xxsmall"
+      pad={{ horizontal: "medium", vertical: "xsmall" }}
+      elevation="xsmall"
+      flex={false}
       style={{ zIndex: "1" }}
     >
       <Stack fill="horizontal" anchor="right">

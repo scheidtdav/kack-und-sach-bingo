@@ -1,15 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { Grid, Main } from "grommet";
 
 import GameboardCell from "./GameboardCell";
 
 export default function Gameboard({ data }) {
-  const myOnClick = () => {
-    console.log("Clicked");
+  const [checkedValues, setCheckedValues] = useState([
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+  ]);
+
+  const toggleCell = (row, column) => {
+    checkedValues[row + 5 * column] = !checkedValues[row + 5 * column];
+    setCheckedValues(checkedValues);
   };
 
   return (
-    <Main>
+    <Main
+      overflow="auto"
+      flex={true}
+      pad={{ vertical: "small", horizontal: "xsmall" }}
+    >
       <Grid
         justifyContent="stretch"
         fill="vertical"
@@ -24,7 +57,15 @@ export default function Gameboard({ data }) {
       >
         {data.map((cell, index) => {
           return (
-            <GameboardCell key={index} content={cell} onClick={myOnClick} />
+            <GameboardCell
+              row={Math.floor(index / 5)}
+              column={index % 5}
+              key={index}
+              onChanged={toggleCell}
+              isChecked={checkedValues[index]}
+            >
+              {cell}
+            </GameboardCell>
           );
         })}
       </Grid>

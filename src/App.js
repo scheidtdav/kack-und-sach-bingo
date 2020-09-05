@@ -1,5 +1,5 @@
 import React from "react";
-import { Grommet } from "grommet";
+import { Grommet, Box } from "grommet";
 
 import theme from "./theme";
 import data from "./sentences.json";
@@ -20,8 +20,10 @@ function shuffleArray(arr) {
 function App() {
   return (
     <Grommet theme={theme} full>
-      <AppHeader />
-      <Gameboard data={shuffleArray(data.sentences).slice(0, 25)} />
+      <Box fill>
+        <AppHeader />
+        <Gameboard data={shuffleArray(data.sentences).slice(0, 25)} />
+      </Box>
     </Grommet>
   );
 }
