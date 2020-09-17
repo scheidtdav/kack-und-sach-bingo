@@ -35,7 +35,7 @@ export default function GameboardCell({
             </StrikeThroughText>
           </Box>
           <Box>
-            <Text textAlign="center" size="xlarge">
+            <Text textAlign="center" size="xxlarge">
               <span role="img" aria-label="pile of poo">
                 💩
               </span>
