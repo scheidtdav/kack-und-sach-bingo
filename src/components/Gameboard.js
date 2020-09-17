@@ -33,8 +33,9 @@ export default function Gameboard({ data }) {
   ]);
 
   const toggleCell = (row, column) => {
-    checkedValues[row + 5 * column] = !checkedValues[row + 5 * column];
-    setCheckedValues(checkedValues);
+    let currentValues = [...checkedValues];
+    currentValues[column + 5 * row] = !currentValues[column + 5 * row];
+    setCheckedValues(currentValues);
   };
 
   return (

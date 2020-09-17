@@ -6,6 +6,7 @@ const theme = {
     colors: {
       brand: "#e90014",
       text: "#000000",
+      "text-weak": "#555555",
       background: "brand",
       border: "text",
       control: "brand",
@@ -39,7 +40,7 @@ const theme = {
   },
   text: {
     medium: {
-      size: "12px",
+      size: "13px",
       height: "18px",
     },
   },
