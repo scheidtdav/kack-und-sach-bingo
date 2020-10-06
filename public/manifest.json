@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "K&S Bingo",
+  "name": "K&S Bingo",
+  "description": "Das digitale Pendant zum bekannten Klassiker.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +22,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#e90014"
 }
