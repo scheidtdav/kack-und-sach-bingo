@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/kack-und-sach-bingo/static/js/main.119ded25.chunk.js",
-    "main.js.map": "/kack-und-sach-bingo/static/js/main.119ded25.chunk.js.map",
+    "main.js": "/kack-und-sach-bingo/static/js/main.1667c919.chunk.js",
+    "main.js.map": "/kack-und-sach-bingo/static/js/main.1667c919.chunk.js.map",
     "runtime-main.js": "/kack-und-sach-bingo/static/js/runtime-main.77d4ac22.js",
     "runtime-main.js.map": "/kack-und-sach-bingo/static/js/runtime-main.77d4ac22.js.map",
     "static/js/2.59023c2a.chunk.js": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js",
     "static/js/2.59023c2a.chunk.js.map": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js.map",
     "index.html": "/kack-und-sach-bingo/index.html",
-    "precache-manifest.0cd7133282ac74404d356413bc56ac0b.js": "/kack-und-sach-bingo/precache-manifest.0cd7133282ac74404d356413bc56ac0b.js",
+    "precache-manifest.b46fe5a73c1a8924351c7c468dedb7ce.js": "/kack-und-sach-bingo/precache-manifest.b46fe5a73c1a8924351c7c468dedb7ce.js",
     "service-worker.js": "/kack-und-sach-bingo/service-worker.js",
     "static/js/2.59023c2a.chunk.js.LICENSE.txt": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js.LICENSE.txt",
     "static/media/kacki.png": "/kack-und-sach-bingo/static/media/kacki.c31d6113.png"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.77d4ac22.js",
     "static/js/2.59023c2a.chunk.js",
-    "static/js/main.119ded25.chunk.js"
+    "static/js/main.1667c919.chunk.js"
   ]
 }
