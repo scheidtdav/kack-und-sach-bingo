@@ -79,6 +79,7 @@ export default function Gameboard({ data }) {
   return (
     <Main
       overflow="auto"
+      align="center"
       flex={true}
       pad={{ vertical: "small", horizontal: "xsmall" }}
     >
