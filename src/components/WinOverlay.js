@@ -1,5 +1,5 @@
 import React from "react";
-import { Layer, Box, Heading, Button } from "grommet";
+import { Layer, Box, Heading, Button, Paragraph } from "grommet";
 
 export default function WinOverlay() {
   const newTry = () => {
@@ -13,6 +13,10 @@ export default function WinOverlay() {
     >
       <Box pad="medium">
         <Heading textAlign="center">Bingo!</Heading>
+        <Paragraph>
+          Schnell! Drück auf Pause bei der Folge, schreib dir die Zeit auf und
+          mess dich mit deinen Freunden!
+        </Paragraph>
         <Button margin={{ vertical: "medium" }} onClick={() => newTry()}>
           Neuen Versuch starten
         </Button>
