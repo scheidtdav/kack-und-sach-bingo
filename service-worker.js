@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kack-und-sach-bingo/precache-manifest.13e6cb5b58ab6ab8cf3f705da732d8f7.js"
+  "/kack-und-sach-bingo/precache-manifest.285f604fef298d8836576b6798c7f791.js"
 );
 
 self.addEventListener('message', (event) => {

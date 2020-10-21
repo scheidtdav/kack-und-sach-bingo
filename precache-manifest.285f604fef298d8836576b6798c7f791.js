@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b56c38e8917850069026c4b5245bfad",
+    "revision": "50664039ed8429d6f4fea50477087327",
     "url": "/kack-und-sach-bingo/index.html"
   },
   {
-    "revision": "499102f29162bbbc1bce",
-    "url": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js"
+    "revision": "4fc362a23cb55e36784c",
+    "url": "/kack-und-sach-bingo/static/js/2.09092f25.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js.LICENSE.txt"
+    "url": "/kack-und-sach-bingo/static/js/2.09092f25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6494165a5e683cff524",
-    "url": "/kack-und-sach-bingo/static/js/main.35f60d18.chunk.js"
+    "revision": "0be293d1acbdda81ce51",
+    "url": "/kack-und-sach-bingo/static/js/main.fbaa12cd.chunk.js"
   },
   {
     "revision": "aacff6ffa0dfe98ceed5",

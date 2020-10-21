@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/kack-und-sach-bingo/static/js/main.35f60d18.chunk.js",
-    "main.js.map": "/kack-und-sach-bingo/static/js/main.35f60d18.chunk.js.map",
+    "main.js": "/kack-und-sach-bingo/static/js/main.fbaa12cd.chunk.js",
+    "main.js.map": "/kack-und-sach-bingo/static/js/main.fbaa12cd.chunk.js.map",
     "runtime-main.js": "/kack-und-sach-bingo/static/js/runtime-main.77d4ac22.js",
     "runtime-main.js.map": "/kack-und-sach-bingo/static/js/runtime-main.77d4ac22.js.map",
-    "static/js/2.59023c2a.chunk.js": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js",
-    "static/js/2.59023c2a.chunk.js.map": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js.map",
+    "static/js/2.09092f25.chunk.js": "/kack-und-sach-bingo/static/js/2.09092f25.chunk.js",
+    "static/js/2.09092f25.chunk.js.map": "/kack-und-sach-bingo/static/js/2.09092f25.chunk.js.map",
     "index.html": "/kack-und-sach-bingo/index.html",
-    "precache-manifest.13e6cb5b58ab6ab8cf3f705da732d8f7.js": "/kack-und-sach-bingo/precache-manifest.13e6cb5b58ab6ab8cf3f705da732d8f7.js",
+    "precache-manifest.285f604fef298d8836576b6798c7f791.js": "/kack-und-sach-bingo/precache-manifest.285f604fef298d8836576b6798c7f791.js",
     "service-worker.js": "/kack-und-sach-bingo/service-worker.js",
-    "static/js/2.59023c2a.chunk.js.LICENSE.txt": "/kack-und-sach-bingo/static/js/2.59023c2a.chunk.js.LICENSE.txt",
+    "static/js/2.09092f25.chunk.js.LICENSE.txt": "/kack-und-sach-bingo/static/js/2.09092f25.chunk.js.LICENSE.txt",
     "static/media/kacki.png": "/kack-und-sach-bingo/static/media/kacki.c31d6113.png"
   },
   "entrypoints": [
     "static/js/runtime-main.77d4ac22.js",
-    "static/js/2.59023c2a.chunk.js",
-    "static/js/main.35f60d18.chunk.js"
+    "static/js/2.09092f25.chunk.js",
+    "static/js/main.fbaa12cd.chunk.js"
   ]
 }
