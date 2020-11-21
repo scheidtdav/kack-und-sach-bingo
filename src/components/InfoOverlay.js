@@ -13,7 +13,7 @@ export default function InfoOverlay({ onDismiss }) {
         <Anchor icon={<Close />} onClick={() => onDismiss()} />
         <Heading textAlign="center">Kack & Sach Bingo</Heading>
         <Markdown>
-          Dieses Bingo ist ein Fan-Projekt mit freundlicher Unterstützung der
+          Dieses Bingo ist ein nicht-kommerzielles, privates Fan-Projekt mit freundlicher Unterstützung der
           [Kack & Sachgeschichten](www.kackundsach.de). Vielen Dank für die
           unzähligen Stunden Spaß und die Unterstützung dieses Projekts!
         </Markdown>
@@ -40,6 +40,7 @@ export default function InfoOverlay({ onDismiss }) {
             hoverIndicator
           />
         </Nav>
+        <Paragraph size="small">Das Logo und der Name der Kack & Sachgeschichten sind eine eingetragene Marke der Hilke Hansen Aengenheyster GbR.</Paragraph>
       </Box>
     </Layer>
   );
