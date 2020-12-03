@@ -1,5 +1,6 @@
 import React from "react";
-import { Layer, Box, Heading, Button, Paragraph } from "grommet";
+import { RWebShare } from "react-web-share";
+import { Layer, Box, Heading, Button } from "grommet";
 
 export default function WinOverlay() {
   const newTry = () => {
@@ -13,10 +14,16 @@ export default function WinOverlay() {
     >
       <Box pad="medium">
         <Heading textAlign="center">Bingo!</Heading>
-        <Paragraph>
-          Schnell! Drück auf Pause bei der Folge, schreib dir die Zeit auf und
-          mess dich mit deinen Freunden!
-        </Paragraph>
+        <RWebShare
+          data={{
+            text:
+              "Ich hab gerade beim Kack und Sach Bingo gewonnen! Auch Bock zu zocken?",
+            url: "https://ksbingo.dscheidt.de",
+            title: "Bingo!",
+          }}
+        >
+          <Button>Teilen</Button>
+        </RWebShare>
         <Button margin={{ vertical: "medium" }} onClick={() => newTry()}>
           Neuen Versuch starten
         </Button>
